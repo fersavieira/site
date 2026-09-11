@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fernanda Sá Vieira | Destinos de Águia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy:#17314e;
+    --gold:#eab680;
+    --cream:#faf6f0;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html,body{
+    height:100%;
+    background:var(--navy);
+    font-family:'Poppins', sans-serif;
+    color:var(--cream);
+  }
+  body{
+    min-height:100vh;
+    min-height:100dvh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:32px 20px;
+    background:
+      radial-gradient(circle at 50% 0%, rgba(234,182,128,0.10), transparent 55%),
+      var(--navy);
+  }
+  .card{
+    width:100%;
+    max-width:420px;
+    text-align:center;
+  }
+  .photo-wrap{
+    width:180px;
+    height:180px;
+    margin:0 auto 28px;
+    border-radius:50%;
+    padding:4px;
+    background:linear-gradient(135deg, var(--gold), rgba(234,182,128,0.25));
+  }
+  .photo-wrap img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:50%;
+    border:3px solid var(--navy);
+    display:block;
+  }
+  h1{
+    font-family:'Cormorant Garamond', serif;
+    font-weight:600;
+    font-size:2.1rem;
+    letter-spacing:0.02em;
+    color:var(--cream);
+    margin-bottom:6px;
+  }
+  .brand{
+    font-family:'Cormorant Garamond', serif;
+    font-weight:500;
+    font-size:1.05rem;
+    color:var(--gold);
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    margin-bottom:14px;
+  }
+  .tagline{
+    font-size:0.92rem;
+    font-weight:300;
+    color:rgba(250,246,240,0.75);
+    line-height:1.6;
+    max-width:320px;
+    margin:0 auto 36px;
+  }
+  .buttons{
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+  }
+  .btn{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:10px;
+    padding:16px 24px;
+    border-radius:999px;
+    text-decoration:none;
+    font-size:0.95rem;
+    font-weight:500;
+    letter-spacing:0.02em;
+    transition:transform 0.15s ease, box-shadow 0.15s ease, opacity 0.15s ease;
+  }
+  .btn:active{ transform:scale(0.98); }
+  .btn-gold{
+    background:linear-gradient(135deg, var(--gold), #dba263);
+    color:var(--navy);
+    box-shadow:0 8px 20px rgba(234,182,128,0.25);
+  }
+  .btn-gold:hover{ opacity:0.92; }
+  .btn-outline{
+    background:transparent;
+    color:var(--cream);
+    border:1.5px solid rgba(250,246,240,0.35);
+  }
+  .btn-outline:hover{
+    border-color:var(--gold);
+    color:var(--gold);
+  }
+  .btn svg{ width:20px; height:20px; flex-shrink:0; }
+  footer{
+    margin-top:40px;
+    font-size:0.72rem;
+    color:rgba(250,246,240,0.35);
+    letter-spacing:0.04em;
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="photo-wrap">
+      <img src="foto.jpg" alt="Fernanda Sá Vieira">
+    </div>
+    <div class="brand">Destinos de Águia</div>
+    <h1>Fernanda Sá Vieira</h1>
+    <p class="tagline">Gestão profissional de milhas e educação em milhas &amp; pontos.</p>
+
+    <div class="buttons">
+      <a class="btn btn-gold" href="https://www.instagram.com/fersavieira/" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.3" cy="6.7" r="1"/></svg>
+        Seguir no Instagram
+      </a>
+      <a class="btn btn-outline" href="https://wa.me/5567981164179" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.3A8.8 8.8 0 0 0 3.8 17.1L2.4 22l5-1.3a8.8 8.8 0 0 0 4.2 1.1h0A8.8 8.8 0 0 0 20.5 12c0-2.4-1-4.6-2.9-6.3ZM11.6 20.2h0a7.3 7.3 0 0 1-3.7-1l-.3-.2-2.7.7.7-2.6-.2-.3a7.3 7.3 0 0 1 6.2-11.2 7.3 7.3 0 0 1 5.2 2.2 7.3 7.3 0 0 1 2.1 5.2 7.3 7.3 0 0 1-7.3 7.2Zm4-5.5c-.2-.1-1.3-.6-1.5-.7-.2-.1-.4-.1-.5.1-.2.2-.6.7-.7.9-.1.1-.3.2-.5.1a6 6 0 0 1-1.8-1.1 6.7 6.7 0 0 1-1.2-1.5c-.1-.2 0-.4.1-.5l.4-.4.2-.4v-.4c-.1-.1-.5-1.3-.7-1.7-.2-.5-.4-.4-.5-.4h-.5c-.1 0-.4.1-.6.3-.2.2-.8.8-.8 1.9s.8 2.2 1 2.4c.1.1 1.7 2.6 4.1 3.6.6.2 1 .4 1.4.5.6.2 1.1.1 1.5.1.5-.1 1.3-.5 1.5-1 .2-.5.2-.9.1-1l-.4-.2Z"/></svg>
+        Falar no WhatsApp
+      </a>
+    </div>
+
+    <footer>Destinos de Águia — Milhas &amp; Pontos</footer>
+  </div>
+</body>
+</html>
